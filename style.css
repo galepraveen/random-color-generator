@@ -26,6 +26,7 @@ body{
   border: 1px solid #fff;
   display: grid;
   place-items: center;
+  color: #fff;
 }
 
 .btn{
