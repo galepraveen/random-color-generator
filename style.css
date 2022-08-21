@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background: aliceblue;
+}
+
+.container{
+  background: skyblue;
+  max-width: 60rem;
+  width: 80%;
+  height: 25rem;
+  margin: 1em auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.box{
+  border: 1px solid #fff;
+  display: grid;
+  place-items: center;
+}
+
+.btn{
+  margin: 1em auto;
+  padding: 0.5em;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  text-transform: uppercase;
+}
